@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <style>
+        body {
+            background-color: #ffccdc;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: #d63384;
+        }
+        .container {
+            margin-top: 15%;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .heart {
+            font-size: 2rem;
+            color: red;
+        }
+        .btn {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #c9184a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine, pretty? <span class="heart">❤️</span></h1>
+        <button class="btn" onclick="alert('Yay! Can’t wait to celebrate with you! ❤️')">Yes!</button>
+    </div>
+</body>
+</html>
